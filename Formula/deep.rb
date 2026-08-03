@@ -1,13 +1,13 @@
 class Deep < Formula
   desc "DeepCanvas CLI — task and document context for coding agents"
   homepage "https://deepcanvas.studio"
-  version "0.2.11"
+  version "0.3.0"
   license "MIT"
 
   on_macos do
     on_arm do
       url "https://github.com/deep-canvas/deepcanvas-cli/releases/download/v#{version}/deep-v#{version}-aarch64-apple-darwin.tar.gz"
-      sha256 "efdee037f1f198d8d473adcc939286f91dd9b73707e1d51fdddca96144ffe316"
+      sha256 "1ed4a94217ae939ccae4adf850e0f95c2aecefe9de4499c284a3b2ea22862e21"
     end
   end
 
